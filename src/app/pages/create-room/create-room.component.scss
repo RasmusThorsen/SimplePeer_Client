@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rem;
+}
+
+.field {
+    align-self: center;
+    width: 20rem;
+    border: 1px solid #50FFB1;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+h3 {
+    align-self: center;
+}
+
+.btn {
+    width: 100px;
+    margin: 0 auto;
+}

@@ -1,0 +1,8 @@
+<div class="form">
+    <h3>Enter room name</h3>
+    <mat-form-field class="field">
+        <mat-label>Room name</mat-label>
+        <input matInput [formControl]="roomName" [(ngModel)]="value">
+    </mat-form-field>
+    <button class="btn" mat-button (click)="onSubmit()">Enter room</button>
+</div>
